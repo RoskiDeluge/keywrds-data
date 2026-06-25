@@ -100,3 +100,5 @@ tmp/
 # OS generated files
 Thumbs.db
 ehthumbs.db
+
+.reffy/state/
