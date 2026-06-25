@@ -50,7 +50,7 @@ ipython_config.py
 
 # Data files (uncomment if you want to exclude data files)
 *.csv
-*.json
+# *.json
 # *.xlsx
 # *.parquet
 

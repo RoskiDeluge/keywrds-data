@@ -115,7 +115,7 @@ notebook, a laptop, or later a scheduled job). Its `sql_database` /
 connection; its `databricks` destination uploads the data as **Parquet** to a
 staging area and then runs `COPY INTO` to create/load the Unity Catalog
 tables. Confirmed against the dlt docs in
-[`dlt_databricks_destination_reference.md`](/Users/robertodelgado/keywrds-ai/.reffy/artifacts/dlt_databricks_destination_reference.md:1).
+[`dlt_databricks_destination_reference.md`](.reffy/artifacts/dlt_databricks_destination_reference.md:1).
 
 ```python
 import dlt

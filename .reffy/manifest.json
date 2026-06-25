@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-06-24T21:15:51.794Z",
-  "updated_at": "2026-06-25T19:38:26.370Z",
+  "updated_at": "2026-06-25T20:12:46.353Z",
   "project_id": "keywrds-data",
   "workspace_ids": [
     "keywrds-ai"
@@ -13,10 +13,10 @@
       "filename": "databricks_postgres_egress_exploration.md",
       "kind": "note",
       "mime_type": "text/markdown",
-      "size_bytes": 12898,
+      "size_bytes": 12865,
       "tags": [],
       "created_at": "2026-06-25T19:38:26.370Z",
-      "updated_at": "2026-06-25T19:38:26.370Z"
+      "updated_at": "2026-06-25T19:55:00.775Z"
     },
     {
       "id": "9e54d9d2-4530-47ff-b6dd-0e5a4f5134ef",
@@ -28,6 +28,17 @@
       "tags": [],
       "created_at": "2026-06-25T19:38:26.370Z",
       "updated_at": "2026-06-25T19:38:26.370Z"
+    },
+    {
+      "id": "28c096c8-66ea-4f62-a574-f005f8575254",
+      "name": "databricks_initial_table_scope",
+      "filename": "databricks_initial_table_scope.md",
+      "kind": "note",
+      "mime_type": "text/markdown",
+      "size_bytes": 4347,
+      "tags": [],
+      "created_at": "2026-06-25T20:12:46.352Z",
+      "updated_at": "2026-06-25T20:12:46.352Z"
     }
   ]
 }
