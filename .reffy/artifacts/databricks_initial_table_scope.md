@@ -7,9 +7,9 @@ status: exploratory
 
 Concrete table selection for the first `dlt` snapshot from DO Postgres into
 Unity Catalog. Companion to
-[`databricks_postgres_egress_exploration.md`](/Users/robertodelgado/keywrds-ai/.reffy/artifacts/databricks_postgres_egress_exploration.md:1)
+[`databricks_postgres_egress_exploration.md`](.reffy/artifacts/databricks_postgres_egress_exploration.md:1)
 (the chosen approach) and
-[`dlt_databricks_destination_reference.md`](/Users/robertodelgado/keywrds-ai/.reffy/artifacts/dlt_databricks_destination_reference.md:1)
+[`dlt_databricks_destination_reference.md`](.reffy/artifacts/dlt_databricks_destination_reference.md:1)
 (the destination mechanics).
 
 Table names verified against the running dev database (Docker `db` container,
