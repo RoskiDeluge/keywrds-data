@@ -1,7 +1,7 @@
 {
   "version": 1,
   "created_at": "2026-06-24T21:15:51.794Z",
-  "updated_at": "2026-06-27T20:06:40.589Z",
+  "updated_at": "2026-09-28T09:26:37.057Z",
   "project_id": "keywrds-data",
   "workspace_ids": [
     "keywrds-ai"
@@ -16,7 +16,7 @@
       "size_bytes": 12865,
       "tags": [],
       "created_at": "2026-06-25T19:38:26.370Z",
-      "updated_at": "2026-06-25T19:55:00.775Z"
+      "updated_at": "2026-09-27T07:06:00.665Z"
     },
     {
       "id": "9e54d9d2-4530-47ff-b6dd-0e5a4f5134ef",
@@ -27,7 +27,7 @@
       "size_bytes": 9235,
       "tags": [],
       "created_at": "2026-06-25T19:38:26.370Z",
-      "updated_at": "2026-06-25T19:38:26.370Z"
+      "updated_at": "2026-09-27T07:06:00.666Z"
     },
     {
       "id": "28c096c8-66ea-4f62-a574-f005f8575254",
@@ -38,7 +38,16 @@
       "size_bytes": 4281,
       "tags": [],
       "created_at": "2026-06-25T20:12:46.352Z",
-      "updated_at": "2026-06-25T20:36:25.457Z"
+      "updated_at": "2026-09-28T09:26:37.057Z",
+      "related_changes": [
+        "add-workload-identity-promotion"
+      ],
+      "derived_outputs": [
+        ".reffy/reffyspec/changes/add-workload-identity-promotion/proposal.md",
+        ".reffy/reffyspec/changes/add-workload-identity-promotion/tasks.md",
+        ".reffy/reffyspec/changes/add-workload-identity-promotion/design.md",
+        ".reffy/reffyspec/changes/add-workload-identity-promotion/specs/workload-identity-promotion/spec.md"
+      ]
     },
     {
       "id": "73a2c5c0-adc4-4084-8a98-0eccc7ef4943",
@@ -49,7 +58,7 @@
       "size_bytes": 17726,
       "tags": [],
       "created_at": "2026-06-27T19:36:53.555Z",
-      "updated_at": "2026-06-27T19:47:38.592Z"
+      "updated_at": "2026-09-27T07:06:00.666Z"
     },
     {
       "id": "321cdd36-5325-45d0-a817-8ee2827a67c9",
@@ -60,7 +69,16 @@
       "size_bytes": 3677,
       "tags": [],
       "created_at": "2026-06-27T20:06:40.588Z",
-      "updated_at": "2026-06-27T20:06:40.588Z"
+      "updated_at": "2026-09-28T09:26:37.057Z",
+      "related_changes": [
+        "add-workload-identity-promotion"
+      ],
+      "derived_outputs": [
+        ".reffy/reffyspec/changes/add-workload-identity-promotion/proposal.md",
+        ".reffy/reffyspec/changes/add-workload-identity-promotion/tasks.md",
+        ".reffy/reffyspec/changes/add-workload-identity-promotion/design.md",
+        ".reffy/reffyspec/changes/add-workload-identity-promotion/specs/workload-identity-promotion/spec.md"
+      ]
     }
   ]
 }

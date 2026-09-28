@@ -1,0 +1,38 @@
+name: Deploy approved models to production
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  id-token: write
+
+concurrency:
+  group: keywrds-data-production
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    name: Deploy production bundle
+    runs-on: ubuntu-latest
+    environment: production
+    env:
+      DATABRICKS_AUTH_TYPE: github-oidc
+      DATABRICKS_HOST: ${{ vars.DATABRICKS_HOST }}
+      DATABRICKS_CLIENT_ID: ${{ vars.DATABRICKS_CLIENT_ID }}
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Install Databricks CLI
+        uses: databricks/setup-cli@v1.18.0
+
+      - name: Verify publisher identity
+        run: databricks current-user me
+
+      - name: Validate production bundle
+        run: databricks bundle validate --strict --target prod
+
+      - name: Deploy production bundle
+        run: databricks bundle deploy --target prod --auto-approve

@@ -1,0 +1,29 @@
+bundle:
+  name: keywrds-data
+  databricks_cli_version: ">= 1.16.0"
+
+variables:
+  catalog:
+    description: Unity Catalog catalog used by the selected environment.
+  schema:
+    description: Default schema used by the selected environment.
+
+targets:
+  dev:
+    default: true
+    mode: development
+    workspace:
+      host: https://adb-3490274941922883.3.azuredatabricks.net
+      profile: keywrds-data-dev
+    variables:
+      catalog: dbw_sql_dev_westus2
+      schema: development
+
+  prod:
+    mode: production
+    workspace:
+      host: https://adb-7405613586421163.3.azuredatabricks.net
+      root_path: /Workspace/Users/${workspace.current_user.userName}/.bundle/${bundle.name}/${bundle.target}
+    variables:
+      catalog: keywrds_data
+      schema: production
