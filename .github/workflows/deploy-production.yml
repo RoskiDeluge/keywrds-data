@@ -29,7 +29,7 @@ jobs:
         uses: databricks/setup-cli@v1.18.0
 
       - name: Verify publisher identity
-        run: databricks current-user me
+        run: databricks current-user me --target prod
 
       - name: Validate production bundle
         run: databricks bundle validate --strict --target prod

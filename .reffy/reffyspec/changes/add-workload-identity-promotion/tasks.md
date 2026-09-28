@@ -18,3 +18,4 @@
 - [x] 4.1 Validate both bundle targets with `--strict`.
 - [x] 4.2 Validate the completed ReffySpec change.
 - [x] 4.3 Review the final diff for credentials or sensitive data.
+- [ ] 4.4 Run the production workflow and verify GitHub OIDC authentication end to end.
